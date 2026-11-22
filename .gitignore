@@ -339,3 +339,5 @@ auto/*
 # delete this line if you want to keep the pdf files in the repo.
 /*.pdf
 /output/*
+.DS_Store
+.vscode/settings.json

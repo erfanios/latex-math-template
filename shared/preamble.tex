@@ -3,6 +3,27 @@
 \usepackage{mathtools} % includes amsmath
 \usepackage{amssymb}
 \usepackage{amsthm}
+\usepackage{pdfpages} % for adding pages from other pdfs
 
 % reduce margins to 2.5cm
 \usepackage[margin=2.5cm]{geometry}
+
+% text formats
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage[normalem]{ulem} % for Underline using \uline{...}
+
+%color
+\usepackage{xcolor}
+
+% Code listings
+\lstset{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    columns=fullflexible,
+    frame=tb,
+    keepspaces=true,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    numbersep=6pt
+}
